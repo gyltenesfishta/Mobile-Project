@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Signup"
+            android:text="Login"
             android:focusableInTouchMode="true"
             android:layout_marginLeft="32dp"
             android:textColor="@color/white"
@@ -39,72 +39,7 @@
             android:layout_marginLeft="32dp"
             android:layout_marginRight="32dp"
             android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            android:background="#33FFFFFF"
-            android:padding="5dp"
-            android:backgroundTint="#3D3D3D">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Name"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:paddingTop="4dp"
-                android:paddingLeft="16dp"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:paddingLeft="16dp"
-                android:background="#3D3D3D"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp"
-                android:hint="Gyltene Sfishta"
-                android:textColor="@color/white"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            android:background="#33FFFFFF"
-            android:padding="5dp"
-            android:backgroundTint="#3D3D3D">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Phone Number"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:paddingTop="4dp"
-                android:paddingLeft="16dp"/>
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:paddingLeft="16dp"
-                android:background="#3D3D3D"
-                android:paddingTop="4dp"
-                android:paddingBottom="4dp"
-                android:hint="+383 45544123"
-                android:inputType="number"
-                android:textColor="@color/white"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="32dp"
             android:background="#33FFFFFF"
             android:padding="5dp"
             android:backgroundTint="#3D3D3D">
@@ -162,7 +97,16 @@
 
         </LinearLayout>
 
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:layout_gravity="end"
+            android:layout_marginRight="35dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginTop="5dp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
@@ -170,7 +114,7 @@
             android:layout_margin="32dp"
             android:background="@drawable/input_bg"
             android:backgroundTint="@color/white"
-            android:text="Create Account"
+            android:text="LOGIN"
             android:textAllCaps="false"
             android:textStyle="bold"
             android:textSize="18dp"/>
@@ -178,7 +122,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Allready have account? Sign in..!"
+            android:text="Don't have account? Create..!"
             android:layout_gravity="center"
             android:textColor="@color/white"
             android:textStyle="bold"
@@ -197,7 +141,3 @@
 
 
 </RelativeLayout>
-
-
-
-
