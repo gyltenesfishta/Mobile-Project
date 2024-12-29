@@ -12,23 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
+
         <activity
             android:name=".Home_screenActivity"
             android:exported="false" />
         <activity
-            android:name=".Verification_screenActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Forgot_PasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SetPasswordActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".SetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Update_PasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Forgot_PasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Verification_screenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

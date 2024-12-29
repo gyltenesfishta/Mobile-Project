@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="48dp"
-    android:height="48dp"
-    android:viewportWidth="48"
-    android:viewportHeight="48">
-
-    <!-- Rrethi i Zi i Plotë -->
-    <path
-        android:fillColor="#000000"
-        android:pathData="M24,2A22,22 0 1,1 2,24A22,22 0 0,1 24,2Z"/>
-
-    <!-- Check i Bardhë - më i trashë dhe qendër -->
-    <path
-        android:fillColor="none"
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="5"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"
-        android:pathData="M14,25L21,32L34,14"/>
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24">
+<path
+    android:fillColor="#FFFFFF"
+    android:pathData="M9,16.2L4.8,12l-1.4,1.4L9,19l12,-12l-1.4,-1.4L9,16.2z" />
 </vector>
 
 
