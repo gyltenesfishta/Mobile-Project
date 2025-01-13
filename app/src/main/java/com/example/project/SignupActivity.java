@@ -51,9 +51,6 @@ public class SignupActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, Home_screenActivity.class);
                 intent.putExtra("USER_EMAIL", email2);
                 startActivity(intent);
-
-
-
             }
 
         });
@@ -64,7 +61,6 @@ public class SignupActivity extends AppCompatActivity {
         textView4.setOnClickListener(view->{
             startActivity(new Intent(this, Forgot_PasswordActivity.class));
         });
-
     }
 
 

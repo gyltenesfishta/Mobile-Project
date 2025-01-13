@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#373737"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#373737"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About NextGen Tech"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#373737"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:text="NextGen tech"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:paddingLeft="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/appointment1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="0dp"
+            android:text="Simplifying IT for You"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/appointment2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="0dp"
+            android:text="Network and Cybersecurity Experts"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/appointment3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="0dp"
+            android:text="Empowering Your IT Infrastructure"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Zeqir Bunjaku, Podujevo, 11000 "
+            android:drawableLeft="@drawable/location_ic"
+            android:drawablePadding="16dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            android:layout_marginTop="150dp"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
